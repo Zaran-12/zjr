@@ -1,0 +1,13 @@
+ 1094  ssh-keygen -t ed25519 -C "zaran9977@gmail.com"
+ 1095  cat ~/.ssh/id_ed25519.pub
+ 1096  git remote set-url origin git@github.com:finalverse/finalviewer.git
+ 1097  git push origin zaran-Newdoc
+ 1098  ssh -T git@github.com
+ 1099  ssh -vT git@github.com
+ 1100  nano ~/.ssh/config
+ 1101  ssh -T git@github.com
+ 1102  git push origin zaran-Newdoc
+ 1103  git checkout master
+ 1104  git pull origin master
+ 1105  git merge zaran-Newdoc
+ 1106  git push origin master
